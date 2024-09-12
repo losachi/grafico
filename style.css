@@ -2,9 +2,9 @@
 
 :root {
 
-    --cor-de-fundo: #131842;
-    --cor-principal: #FF4191;
-    --cor-secundaria: #77E4C8;
+    --cor-de-fundo: #000000;
+    --cor-principal: #41d9ff;
+    --cor-secundaria: #5a78dd;
     --fonte: "Sofadi One", system-ui;
     --cor-barra: white;
 }
