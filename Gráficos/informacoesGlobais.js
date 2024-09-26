@@ -10,7 +10,7 @@ async function visualizarInformacoesGlobais() {
     const porcentagemConectada = ((pessoasConectadas/pessoasMundo)*100).toFixed(2)
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `Um estudo realizado pela Base de Informações Geográficas e Estatísticas sobre os Indígenas e Quilombolas do IBGE. Estima  que em 2019 existiam 5.972 localidades quilombolas no Brasil`
+    paragrafo.innerHTML = `Um estudo realizado pela Base de Informações Geográficas e Estatísticas sobre os Indígenas e Quilombolas do IBGE. Estima  que em 2019 existiam 5.972 localidades quilombolas no território Brasileiro`
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
 }
