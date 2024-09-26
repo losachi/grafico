@@ -40,12 +40,11 @@ async function quantidadeUsuarios() {
         yaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Bilhões de usuários ativos',
+                text: 'Quantidade de Quilombos',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
             }
-
         }
 
     }
