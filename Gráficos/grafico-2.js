@@ -5,7 +5,7 @@ async function quantidadeUsuarios() {
     const res = await fetch(url)
     const dados = await res.json()
     const nomeDasRedes = ["2018","2019","2020","2021","2022"]
-    const quantidadeUsuarios = ["10%","20%","30%",]
+    const quantidadeUsuarios = ["10%","20%","30%","40%","50%","60%"]
     const data = [
         {
             x: nomeDasRedes,
