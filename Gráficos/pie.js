@@ -15,7 +15,7 @@ async function quantidadeUsuarios() {
                 color: getCSS('--cor-barra')
             }
         }
-    ]
+    ] }
 
     const layout = {
         plot_bgcolor: getCSS('--cor-de-fundo'),
@@ -41,7 +41,24 @@ async function quantidadeUsuarios() {
             tickfont: tickConfig,
             title: {
                 text: 'Quantidade de Quilombos',
-                font: {
+                font: {import{ getCSS, tickConfig } from "./common2.js "
+
+                async function quantidadeUsuarios() {
+                    const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json'
+                    const res = await fetch(url)
+                    const dados = await res.json()
+                    const nomeDasRedes = ['Bahia', 'Minas Gerais','Maranhão', 'Pará', 'Pernambuco']
+                    const quantidadeUsuarios = Object.values(dados)
+                    const data = [
+                        {
+                …    const grafico = document.createElement('div')
+                    grafico.className - 'grafico'
+                    document.getElementById('graficos-container').appendChild(grafico)
+                    Plotly.newPlot(grafico, data, layout)
+                
+                }
+                
+                quantidadeUsuarios()
                     color: getCSS('--cor-secundaria')
                 }
             }
